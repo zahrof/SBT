@@ -1,0 +1,18 @@
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Pictures/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:9:8: not found: object akka[0m
+[0m[[0m[31merror[0m] [0m[0mimport akka.actor.{Props, Actor, ActorRef, ActorSystem}[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Pictures/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:24:25: not found: type Actor[0m
+[0m[[0m[31merror[0m] [0m[0mclass BachActor extends Actor {[0m
+[0m[[0m[31merror[0m] [0m[0m                        ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Pictures/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:28:3: not found: value context[0m
+[0m[[0m[31merror[0m] [0m[0m  context.actorSelection("akka.tcp://Player@127.0.0.1:6000/user/Instrument")[0m
+[0m[[0m[31merror[0m] [0m[0m  ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Pictures/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:32:15: missing parameter type for expanded function[0m
+[0m[[0m[31merror[0m] [0m[0mThe argument types of an anonymous function must be fully known. (SLS 8.5)[0m
+[0m[[0m[31merror[0m] [0m[0mExpected type was: ?[0m
+[0m[[0m[31merror[0m] [0m[0mdef receive = {[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Pictures/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:207:16: not found: value ActorSystem[0m
+[0m[[0m[31merror[0m] [0m[0m  val system = ActorSystem("Bach")[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
