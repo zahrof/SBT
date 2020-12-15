@@ -200,7 +200,24 @@ val voix2 = Sequential (List (
   Note (52 , 125 , 100 ),Note (53 , 125 , 100 ),Note (55 , 125 , 100 ),
   Note (58 , 125 , 100 ),Note (57 , 125 , 100 ),Note (55 , 125 , 100 )))
 
+// BON, je pense que j'ai pas compris un aspect de la consigne de la dernière question.
+// j'ai essayé d'appliquer les bonnes transposées mais si vous lancez cette methode ça vous fera mal 
+// aux oreilles ^^'
+// def canon_Bach ():ObjectMusical = {
+//     Parallel(
+//     List(
+//       voix1, transpose(voix1,2),transpose(voix1,4),transpose(voix1,6),transpose(voix1,8),transpose(voix1,10),transpose(voix1,12),
+//       Parallel(List( 
+//         Sequential(List(voix2, transpose(voix2,2), transpose(voix2,4),transpose(voix2,6),transpose(voix2,8),transpose(voix2,10),transpose(voix2,12))),
+//         Sequential(List(Rest(2),transpose(voix2,7), transpose(voix2,14),transpose(voix2,21),transpose(voix2,28),transpose(voix2,35),transpose(voix2,42))) 
+                  
+//               )
+//     ))
+//     )}}
 
+
+
+// Cette methode est plus 'ecoutable' mais ne respecte pas les transposés... 
 def canon_Bach ():ObjectMusical = {
     Parallel(
     List(
