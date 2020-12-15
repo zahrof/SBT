@@ -1,24 +1,24 @@
 compile 
-run
 set fork in run := true
+run 
+compile
+set fork in run := true
+run 
+set fork in run := true
+run
 compile
 run 
 set fork in run := true
 run 
 set fork in run := true
 run 
-run
-compile
 set fork in run := true
 run 
-compile
-run
-compile
-set fork in run := true
-run
 compile 
+run 
 set fork in run := true
+compile
 run
-compile 
 set fork in run := true
-run
+compile
+run 

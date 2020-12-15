@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/zahrof/Documents/Master2/ppc/TME8_code/TME8_code/TME8/src/main/scala/bach.scala:164:2: ')' expected but 'val' found.[0m
+[0m[[0m[31merror[0m] [0m[0m val voix1 = Sequential ( List ([0m
+[0m[[0m[31merror[0m] [0m[0m ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
